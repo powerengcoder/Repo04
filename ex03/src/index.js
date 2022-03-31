@@ -1,10 +1,14 @@
 function main(){
-    var myRes = 16;
+    var myDecimal =0.00254;
+    var mydecimalE;
     // Only change code below this line
-    myRes--;
+    mydecimalE =  myDecimal.toExponential(2);
     // Only change code above this line
     
-   return myRes;
+   return {
+       myDecimal,
+       mydecimalE
+   }
 
 }
     
